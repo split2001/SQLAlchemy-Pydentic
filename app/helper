@@ -1,0 +1,11 @@
+pip install alembic
+
+
+alembic init app/migrations создание файлов миграции
+
+
+alembic revision --autogenerate -m 'Initial migration' Инициализация миграции
+
+
+alembic upgrade head позволит  применить последнюю миграцию и создать таблицы User, Task и запись текущей версии миграции
+
